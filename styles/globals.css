@@ -1,0 +1,47 @@
+* {
+  margin: 0;
+}
+
+
+p {
+
+display: grid;
+
+grid-template-areas: 
+"header header"
+"aside main"
+"footer footer";
+grid-template-rows: 120px 1fr 80px;
+grid-template-columns: 80px 1fr;
+
+}
+
+header {
+  grid-area: header;
+  background-color: green;
+  display: flex;
+  justify-content: space-between;
+  
+}
+
+main {
+  grid-area: main;
+  background-color: blue;
+  display: flex;
+  
+}
+
+aside {
+  grid-area: aside;
+  background-color: yellow;
+  display: flex;
+  
+}
+
+
+
+footer {
+  grid-area: footer;
+  display: flex;
+  
+}
