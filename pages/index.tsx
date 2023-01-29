@@ -1,4 +1,4 @@
-import HeaderMain from "@/components/header_main"
+import HeaderMain from "@/components/Header_main"
 import AsideMain from "@/components/Aside_main"
 
 export default function Home() {
